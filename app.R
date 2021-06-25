@@ -41,9 +41,9 @@ Script by Fernando Zampieri
 
       "Original concept by:
 Coulthard MG, Coulthard T. The leaf plot: a novel way of presenting the value of tests. Br J Gen Pract. 2019 Apr;69(681):205-206.",
-      "Made Shiny by Lars Mølgaard Saxhaug  (lars.molgaard.saxhaug@ntnu.no)",
+      'Made Shiny by Lars Mølgaard Saxhaug  <a href="https://twitter.com/load_dependent" >@load_dependent</a>',
       "Built on R 3.6.2 using tidyverse version 1.3.0 and shiny version 1.4.0.2",
-      "Use and distribute freely!",
+      'Code available <a href="https://github.com/Agasax/Leaf_plot">here</a>, use and distribute freely!',
       sep = "<br/>"
     )
   ))
