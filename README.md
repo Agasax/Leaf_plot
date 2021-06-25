@@ -3,7 +3,7 @@ README
 Lars Mølgaard Saxhaug
 6/25/2021
 
-Interactive leafplot app is available at
+Interactive leafplot app is hosted at
 <https://lmsaxhaug.shinyapps.io/Leaf_App/>
 
 ![Demonstration of leaf plot app](Leaf_plot.gif)

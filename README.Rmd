@@ -9,7 +9,7 @@ output: github_document
 
 ```
 
-Interactive leafplot app is available at <https://lmsaxhaug.shinyapps.io/Leaf_App/>
+Interactive leafplot app is hosted at <https://lmsaxhaug.shinyapps.io/Leaf_App/>
 
 ![Demonstration of leaf plot app](Leaf_plot.gif){width="800"}
 
