@@ -1,4 +1,7 @@
+.gitignore
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
+rsconnect/
+Leaf_plot.Rproj
