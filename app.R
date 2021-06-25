@@ -25,13 +25,10 @@ ui <- fluidPage(
         numericInput("preprob", value = 15, label = "Pretest probability (%):", min = 0, max = 100, step = .1)
       
     ),tabPanel(title = "Options",
-<<<<<<< HEAD
+
                sliderInput("xlim",value = c(0,100), label = "Range of pre-test probability in %", post = "%",min = 0,max = 100,step = 1),
                sliderInput("ylim",value = c(0,100), label = "Range of post-test probability in %", post = "%",min = 0,max = 100,step = 1)
-=======
-               sliderInput("xlim",value = c(0,100), label = "Range of pre-test probability in %", post = "%",min = 0,max = 100,step = .1),
-               sliderInput("ylim",value = c(0,100), label = "Range of post-test probability in %", post = "%",min = 0,max = 100,step = .1)
->>>>>>> 44fef0d6d7fef6e941f42d775462638c61a0eca6
+
               ))),
 
     # Show a plot and
@@ -46,15 +43,10 @@ Script by Fernando Zampieri
 
       "Original concept by:
 Coulthard MG, Coulthard T. The leaf plot: a novel way of presenting the value of tests. Br J Gen Pract. 2019 Apr;69(681):205-206.",
-<<<<<<< HEAD
       'Made Shiny by Lars Mølgaard Saxhaug  <a href="https://twitter.com/load_dependent" >@load_dependent</a>',
       "Built on R 3.6.2 using tidyverse version 1.3.0 and shiny version 1.4.0.2",
       'Code available <a href="https://github.com/Agasax/Leaf_plot">here</a>, use and distribute freely!',
-=======
-      "Made Shiny by Lars Mølgaard Saxhaug  (lars.molgaard.saxhaug@ntnu.no)",
-      "Built on R 3.6.2 using tidyverse version 1.3.0 and shiny version 1.4.0.2",
-      "Use and distribute freely!",
->>>>>>> 44fef0d6d7fef6e941f42d775462638c61a0eca6
+
       sep = "<br/>"
     )
   ))
@@ -115,19 +107,13 @@ leafplot <- function(sens, spec, preprob, xlim, ylim) {
       lty = "dotted"
     ) +
     coord_cartesian(
-<<<<<<< HEAD
+
       xlim = xlim,
       expand = TRUE,
       ylim = ylim
     ) +
     scale_y_continuous(
-=======
-      xlim = c(0, 1),
-      expand = TRUE,
-      ylim = c(0, 1)
-    ) +
-    scale_y_continuous(limits = ylim,
->>>>>>> 44fef0d6d7fef6e941f42d775462638c61a0eca6
+
       labels = scales::percent,
       breaks = c(seq(from=ylim[[1]],to=ylim[[2]],length.out = 5), post.prob.p.print, post.prob.n.print)
     ) +
@@ -135,13 +121,6 @@ leafplot <- function(sens, spec, preprob, xlim, ylim) {
       labels = scales::percent,
       breaks = c(seq(from=xlim[[1]],to=xlim[[2]],length.out = 5), preprob)
     ) +
-<<<<<<< HEAD
-=======
-    scale_x_continuous( limits = xlim,
-      labels = scales::percent,
-      breaks = c(0, 0.25, 0.5, 0.75, 1, preprob)
-    ) +
->>>>>>> 44fef0d6d7fef6e941f42d775462638c61a0eca6
     labs(
       x = "Pre-test probability",
       y = "Post-test probability",
