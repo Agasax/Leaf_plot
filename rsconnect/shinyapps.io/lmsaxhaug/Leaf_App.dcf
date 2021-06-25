@@ -5,8 +5,14 @@ account: lmsaxhaug
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1196731
+<<<<<<< HEAD
 bundleId: 3721807
 url: https://lmsaxhaug.shinyapps.io/Leaf_App/
 when: 1602268134.7039
+=======
+bundleId: 3576664
+url: https://lmsaxhaug.shinyapps.io/Leaf_App/
+when: 1598897055.67946
+>>>>>>> 44fef0d6d7fef6e941f42d775462638c61a0eca6
 asMultiple: FALSE
 asStatic: FALSE
