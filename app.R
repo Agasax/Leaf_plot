@@ -39,7 +39,7 @@ ui <- fluidPage(
       'Based on:
 Leaf plot v 0.9
 Script by Fernando Zampieri
-(fzampieri@hcor.com.br) from "When will less monitoring and diagnostic testing benefit the patient more?" FG Zampieri, S Einav. Intensive Care Med. 2019.',
+<a href="https://twitter.com/f_g_zampieri" >@f_g_zampieri</a> from "When will less monitoring and diagnostic testing benefit the patient more?" FG Zampieri, S Einav. Intensive Care Med. 2019.',
 
       "Original concept by:
 Coulthard MG, Coulthard T. The leaf plot: a novel way of presenting the value of tests. Br J Gen Pract. 2019 Apr;69(681):205-206.",
